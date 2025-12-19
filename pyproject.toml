@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytt"
+version = "1.0.0"
+description = "YouTube transcript fetcher - copies to clipboard"
+requires-python = ">=3.8"
+dependencies = [
+    "certifi==2025.11.12",
+    "charset-normalizer==3.4.4",
+    "defusedxml==0.7.1",
+    "idna==3.11",
+    "requests==2.32.5",
+    "urllib3==2.6.1",
+    "youtube-transcript-api==1.2.3",
+]
+
+[project.scripts]
+ytt = "ytt:main"
