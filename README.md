@@ -4,13 +4,6 @@ Quick YouTube transcript fetcher that copies to clipboard. Because who has time 
 
 ## Installation
 
-Navigate to your script directory:
-```bash
-cd .../yt-transcript/
-```
-
-Replace the old files with the new ones (ytt.py and pyproject.toml), then install with pipx:
-
 ```bash
 pipx install .
 ```
